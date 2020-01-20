@@ -1,2 +1,20 @@
-# stencil-k5ma6b4p
-Stencil starter kit
+[![edit-in-webcomponents.dev](https://webcomponents.dev/assets/ext/edit_in_wcd.svg)](https://webcomponents.dev/edit/udlU3ILEWBLvMymlDd0R)
+# Stencil Starter Kit
+
+### Starter kit result
+
+```showcase
+  <custom-element name="test"></custom-element>
+```
+
+### Links
+
+- [Official website (stenciljs.com)](https://stenciljs.com/)
+- [Getting Started](https://stenciljs.com/docs/getting-started)
+- [Demos](https://stenciljs.com/resources#Demos)
+- [Docs](https://stenciljs.com/docs/introduction)
+- [Chat](https://stencil-worldwide.herokuapp.com/)
+- [GitHub](https://github.com/ionic-team/stencil)
+- [Issues](https://github.com/ionic-team/stencil/issues)
+
+> Created with [webcomponents.dev](https://webcomponents.dev)
