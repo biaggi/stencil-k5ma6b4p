@@ -1,5 +1,5 @@
 /* @jsx h */
-import { h, Component, Prop } from "@stencil/core";
+import { h, Component, Prop, Listen } from "@stencil/core";
 
 @Component({
   tag: "custom-element",
@@ -8,14 +8,12 @@ import { h, Component, Prop } from "@stencil/core";
 })
 class HelloComponent {
   @Prop({ reflect: true }) name: string;
-  render() {
-    return (
-      <button onClick={this.click.bind(this)}>
-        Hello {this.name ? this.name : "World"}
-      </button>
-    );
-  }
-  click() {
+
+  @Listen("click", { capture: true })
+  handleClick() {
     this.name = "test";
+  }
+  render() {
+    return <span>Hello {this.name ? this.name : "World"}</span>;
   }
 }
